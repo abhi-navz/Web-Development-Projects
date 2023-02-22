@@ -1,0 +1,276 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+img[alt="paytmhzlogo"] {
+  width: 250px;
+}
+img[alt="paytmsqlogo"] {
+  width: 110px;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+li {
+  list-style: none;
+}
+/* header section */
+header {
+  margin: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+header ul li {
+  list-style: none;
+  font-size: 23px;
+  font-weight: 600;
+}
+header ul li:hover {
+  background-color: #f6f6f6;
+  padding: 15px;
+}
+header div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #00baf2;
+  padding: 8px 25px;
+  border-radius: 25px;
+}
+header div a p {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+}
+header div a img {
+  width: 35px;
+  background-color: #002970;
+  padding: 5px;
+  border-radius: 25px;
+}
+header div a:hover {
+  background-color: #002970;
+}
+/* kyc mini   heading section */
+.kyc {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 20px 0px;
+}
+.kyc p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.kyc p a {
+  font-weight: 500;
+}
+.kyc p span {
+  font-weight: 500;
+}
+/* intro section */
+img[alt="introimage"] {
+  width: 700px;
+}
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+}
+.leftintro {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 50px;
+  margin-left: 10px;
+}
+
+.leftintro h1 {
+  font-size: 75px;
+}
+.leftintro .introtext p {
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-top: 10px;
+}
+.downloadapp a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+.downloadapp a ul {
+  display: flex;
+  gap: 20px;
+}
+.downloadapp a p {
+  font-size: 22px;
+}
+.downloadapp a:hover {
+  background-color: #fff;
+  color: #000000;
+}
+/* pay bill section */
+.paybills {
+  background-color: #00baf2;
+  color: #ffffff;
+  margin-top: 100px;
+  padding: 80px 10px;
+}
+.paybills h1 {
+  font-size: 50px;
+}
+.services {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 220px;
+  height: 270px;
+}
+.card p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.card p i {
+  position: relative;
+  left: 10px;
+}
+img[alt="card"] {
+  width: 100px;
+}
+.card:hover {
+  background-color: #00afe3;
+  border-radius: 30px;
+}
+/*  book n buy section */
+.booknbuy {
+  background-color: #0f4a8a;
+  color: #ffffff;
+  padding: 80px 10px;
+}
+.booknbuy h1 {
+  font-size: 50px;
+}
+#card2:hover {
+  background-color: #0d3e80;
+  border-radius: 30px;
+}
+/* Paymetn instrument section */
+.paymentinstruments {
+  background-color: #f6f6f6;
+  padding: 100px 20px 0px 20px;
+}
+.paymentinstruments h1 {
+  font-size: 65px;
+}
+/* paytm wallet and upi money section */
+.instrument {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 70px;
+  padding: 80px 0px 80px 30px;
+  border-radius: 25px;
+}
+img[alt="walletimage"] {
+  width: 700px;
+}
+.instrument .left {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+img[alt="walletlogo"] {
+  width: 100px;
+}
+.instrument .left .heading {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.instrument .left .heading p {
+  font-size: 22px;
+  font-weight: 600;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+.info h2 {
+  font-size: 50px;
+}
+.info p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* paytm postpaid section */
+img[alt="postpadilogo"] {
+  width: 230px;
+  margin-bottom: 20px;
+}
+img[alt="postpaidimg"] {
+  width: 600px;
+}
+.paytmpostpaid {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 70px;
+  padding: 80px 0px 80px 30px;
+  border-radius: 25px;
+}
+.paytmpostpaid .left {
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+  gap: 30px;
+}
+.paytmpostpaid h2 {
+  font-size: 50px;
+}
+.paytmpostpaid p {
+  font-size: 22px;
+  font-weight: 500;
+}
+.paytmpostpaid .learnmore a {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  gap: 20px;
+  background-color: #203569;
+  padding: 15px 30px;
+  border-radius: 40px;
+}
+
+.paytmpostpaid .learnmore a:hover{
+  background-color: #00BAF2;
+}
