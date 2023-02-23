@@ -181,7 +181,7 @@ img[alt="card"] {
 /* Paymetn instrument section */
 .paymentinstruments {
   background-color: #f6f6f6;
-  padding: 100px 20px 0px 20px;
+  padding: 100px 20px 100px 20px;
 }
 .paymentinstruments h1 {
   font-size: 65px;
@@ -261,7 +261,7 @@ img[alt="postpaidimg"] {
   font-size: 22px;
   font-weight: 500;
 }
-.paytmpostpaid .learnmore a {
+.learnmore a {
   display: flex;
   align-items: center;
   color: #ffffff;
@@ -271,6 +271,130 @@ img[alt="postpaidimg"] {
   border-radius: 40px;
 }
 
-.paytmpostpaid .learnmore a:hover{
-  background-color: #00BAF2;
+.learnmore a:hover {
+  background-color: #00baf2;
+}
+
+/* bank  section */
+.bank {
+  display: flex;
+  margin: 60px;
+  gap: 65px;
+}
+.bank h1 {
+  font-size: 60px;
+}
+
+/* hdfc section */
+img[alt="paytmhdfclogo"] {
+  width: 250px;
+}
+img[alt="hdfccard"] {
+  width: 600px;
+}
+
+.hdfc {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 48%;
+  /* margin-left: 65px; */
+  padding: 70px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.hdfc p {
+  font-size: 27px;
+  font-weight: 500;
+}
+/* sbi card section */
+img[alt="paytmsbilogo"] {
+  width: 250px;
+}
+img[alt="sbicard"] {
+  width: 600px;
+}
+
+.sbi {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 47%;
+  padding: 70px;
+  padding-top: 140px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.sbi p {
+  font-size: 27px;
+  font-weight: 500;
+}
+/* financial services heading */
+.financialservices {
+  font-size: 35px;
+  margin: 150px 0px 20px 70px;
+}
+/* paytmpaymentsbank secction */
+.paytmpaymentsbank {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px;
+}
+img[alt="paymentsbanklogo"] {
+  width: 280px;
+  position: relative;
+  bottom: 40px;
+}
+img[alt="paytmpaymentsimage"] {
+  width: 650px;
+}
+.paytmpaymentsbank .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+}
+.paytmpaymentsbank .left h1 {
+  font-size: 50px;
+}
+.paytmpaymentsbank .left p {
+  font-size: 27px;
+  font-weight: 400;
+}
+/*  Paytmmoney section */
+img[alt="paytmmoneyimg"] {
+  width: 650px;
+}
+img[alt="paytmmoney"] {
+  width: 280px;
+}
+.paytmmoney {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f6f6;
+  background: url(/ASSets/gray-spike.webp);
+  background-position: bottom;
+  background-size: contain;
+  padding: 100px;
+}
+.paytmmoney .left {
+  background-color: transparent;
+}
+.paytmmoney .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+  background-color: transparent;
+}
+.paytmmoney .right h1 {
+  font-size: 50px;
+}
+.paytmmoney .right p {
+  font-size: 27px;
+  font-weight: 400;
 }
