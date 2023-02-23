@@ -282,7 +282,7 @@ img[alt="postpaidimg"] {
   gap: 65px;
 }
 .bank h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 /* hdfc section */
@@ -342,12 +342,12 @@ img[alt="sbicard"] {
   padding: 70px;
 }
 img[alt="paymentsbanklogo"] {
-  width: 280px;
+  width: 250px;
   position: relative;
   bottom: 40px;
 }
 img[alt="paytmpaymentsimage"] {
-  width: 650px;
+  width: 550px;
 }
 .paytmpaymentsbank .left {
   display: flex;
@@ -365,10 +365,10 @@ img[alt="paytmpaymentsimage"] {
 }
 /*  Paytmmoney section */
 img[alt="paytmmoneyimg"] {
-  width: 650px;
+  width: 550px;
 }
 img[alt="paytmmoney"] {
-  width: 280px;
+  width: 250px;
 }
 .paytmmoney {
   display: flex;
@@ -395,6 +395,66 @@ img[alt="paytmmoney"] {
   font-size: 50px;
 }
 .paytmmoney .right p {
+  font-size: 27px;
+  font-weight: 400;
+}
+/* paytm insaurance section */
+.paytminsaurance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px;
+  margin-top: 50px;
+}
+img[alt="insurancelogo"] {
+  width: 250px;
+
+}
+img[alt="insaurance"] {
+  width: 550px;
+}
+.paytminsaurance .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+}
+.paytminsaurance .left h1 {
+  font-size: 50px;
+}
+.paytminsaurance .left p {
+  font-size: 27px;
+  font-weight: 400;
+}
+/*  paytm personal loan section */
+.personalloan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px;
+  margin-top: 50px;
+  background-color: #f6f6f6;
+  padding-top: 100px;
+}
+img[alt="loanlogo"] {
+  width: 250px;
+
+}
+img[alt="loanimage"] {
+  width: 550px;
+}
+.personalloan .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+}
+.personalloan .right h1 {
+  font-size: 50px;
+}
+.personalloan .right p {
   font-size: 27px;
   font-weight: 400;
 }
