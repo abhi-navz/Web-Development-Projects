@@ -9,17 +9,14 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 20px;
   z-index: 999;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
- 
-  
 }
-
 
 img[alt="paytmhzlogo"] {
   width: 250px;
@@ -79,7 +76,6 @@ header div a:hover {
   text-align: center;
   padding: 20px 0px;
   margin-top: 110px;
-  
 }
 .kyc p {
   font-size: 20px;
@@ -421,7 +417,6 @@ img[alt="paytmmoney"] {
 }
 img[alt="insurancelogo"] {
   width: 250px;
-
 }
 img[alt="insaurance"] {
   width: 550px;
@@ -447,12 +442,11 @@ img[alt="insaurance"] {
   align-items: center;
   padding: 70px;
   margin-top: 50px;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
   padding-top: 100px;
 }
 img[alt="loanlogo"] {
   width: 250px;
-
 }
 img[alt="loanimage"] {
   width: 550px;
@@ -472,23 +466,22 @@ img[alt="loanimage"] {
   font-weight: 400;
 }
 /* Accept online payment section */
-img[alt="itemimage"]{
+img[alt="itemimage"] {
   width: 550px;
 }
-.buisnesservices{
+.buisnesservices {
   display: flex;
   flex-direction: column;
   gap: 60px;
   margin: 150px 50px;
-
 }
-.buisnesservices h1{
+.buisnesservices h1 {
   font-size: 70px;
 }
-.buisnesservices .item{
+.buisnesservices .item {
   display: flex;
   justify-content: space-between;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
   padding: 100px 0px 100px 150px;
   border-radius: 30px;
   align-items: center;
@@ -499,50 +492,48 @@ img[alt="itemimage"]{
   align-items: start;
   gap: 35px;
 }
-.buisnesservices .item .left h1{
+.buisnesservices .item .left h1 {
   font-size: 55px;
 }
-.buisnesservices .item .left p{
+.buisnesservices .item .left p {
   font-size: 25px;
   font-weight: 400;
 }
 /* buisness tools section */
 
-img[alt="buisnessitem"]{
+img[alt="buisnessitem"] {
   width: 320px;
 }
-.buisnesstools{
+.buisnesstools {
   display: flex;
   flex-direction: column;
   gap: 100px;
   margin: 70px;
-
 }
-.buisnesstools h1{
+.buisnesstools h1 {
   font-size: 55px;
 }
-.buisnesstools .items{
+.buisnesstools .items {
   display: flex;
   gap: 100px;
 }
-.buisnesstools .items .item{
+.buisnesstools .items .item {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 40px;
 }
-.buisnesstools .items .item h2{
+.buisnesstools .items .item h2 {
   font-size: 40px;
 }
-.buisnesstools .items .item p{
-  font-size: 28px ;
+.buisnesstools .items .item p {
+  font-size: 28px;
 }
 .buisnesstools .items .item .learnmore2 p {
-  
   font-size: 20px;
   font-weight: 600;
 }
-.learnmore2{
+.learnmore2 {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -550,12 +541,12 @@ img[alt="buisnessitem"]{
   bottom: 20px;
   cursor: pointer;
 }
-.learnmore2:hover{
- gap: 20px;
+.learnmore2:hover {
+  gap: 20px;
 }
 
 /* paytm money and travel  */
-.paytmMoney{
+.paytmMoney {
   display: flex;
   justify-content: space-around;
   margin-left: 100px;
@@ -564,54 +555,61 @@ img[alt="buisnessitem"]{
 }
 
 /* paytm money intro  */
-.paytmMoneyIntro{
+.paytmMoneyIntro {
   display: flex;
   flex-direction: column;
   gap: 50px;
   font-size: 20px;
   width: 20%;
 }
-.paytmMoneyIntro div{
+.paytmMoneyIntro div {
   display: flex;
   flex-direction: column;
   gap: 15px;
-
 }
 .paytmMoneyIntro div a {
   color: #00afe3;
   font-size: 23px;
   font-weight: 500;
 }
-#learnmore3:hover{
+#learnmore3:hover {
   color: black;
-  
 }
 
-
 /* paytm money instruments section */
-.paytmMoneyInstruments{
+.paytmMoneyInstruments {
   display: flex;
+  /* align-items:center; */
   gap: 40px;
   width: 75%;
   overflow-x: auto;
+  overflow-x: hidden;
   scroll-behavior: smooth;
-
 }
 
-
 .paytmMoneyInstruments .item {
-  background-color:#00baf2;
+  background-color: #00baf2;
   width: 200px;
   padding: 7px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   gap: 20px;
   flex-shrink: 0;
 }
-.paytmMoneyInstruments .item h2{
+.paytmMoneyInstruments .item h2 {
   color: white;
   text-align: center;
-} 
+}
+#rightScroll {
+  position: relative;
+  top: 150px;
+  left: 20px;
+}
+#leftScroll{
+  position: relative;
+  top: 150px;
+  right: 20px;
+
+}
