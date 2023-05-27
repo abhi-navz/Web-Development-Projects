@@ -546,28 +546,33 @@ img[alt="buisnessitem"] {
 }
 
 /* paytm money and travel  */
-.paytmMoney {
+.paytmMoney,
+.paytmTravel {
   display: flex;
   justify-content: space-around;
   margin-left: 100px;
   margin-right: 100px;
   /* gap: 200px; */
+  margin-bottom: 100px;
 }
 
 /* paytm money intro  */
-.paytmMoneyIntro {
+.paytmMoneyIntro,
+.paytmTravelIntro {
   display: flex;
   flex-direction: column;
   gap: 50px;
   font-size: 20px;
   width: 20%;
 }
-.paytmMoneyIntro div {
+.paytmMoneyIntro div,
+.paytmTravelIntro div {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-.paytmMoneyIntro div a {
+.paytmMoneyIntro div a,
+.paytmTravelIntro div a {
   color: #00afe3;
   font-size: 23px;
   font-weight: 500;
@@ -579,8 +584,8 @@ img[alt="buisnessitem"] {
 /* paytm money instruments section */
 .paytmMoneyInstruments {
   display: flex;
-  /* align-items:center; */
-  gap: 40px;
+
+  gap: 50px;
   width: 75%;
   overflow-x: auto;
   overflow-x: hidden;
@@ -590,11 +595,15 @@ img[alt="buisnessitem"] {
 .paytmMoneyInstruments .item {
   background-color: #00baf2;
   width: 200px;
-  padding: 7px;
+  height: 300px;
+
+  padding: 5px;
+  padding-bottom: 15px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+
   gap: 20px;
   flex-shrink: 0;
 }
@@ -602,14 +611,39 @@ img[alt="buisnessitem"] {
   color: white;
   text-align: center;
 }
-#rightScroll {
-  position: relative;
-  top: 150px;
-  left: 20px;
-}
-#leftScroll{
-  position: relative;
-  top: 150px;
-  right: 20px;
 
+#rightScroll,
+#leftScroll {
+  position: relative;
+  top: 150px;
+}
+
+/* paytm Travel section */
+
+.paytmTravelInstruments {
+  display: flex;
+  gap: 35px;
+  width: 75%;
+  overflow-x: scroll;
+  overflow-x: hidden;
+}
+.paytmTravelInstruments .item {
+  background-color: #00baf2;
+  width: 200px;
+  height: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-shrink: 0;
+}
+.paytmTravelInstruments .item h2 {
+  color: white;
+}
+.paytmTravelInstruments .item p {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  gap: 10px;
 }
