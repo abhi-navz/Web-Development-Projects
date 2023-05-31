@@ -1,5 +1,3 @@
-
-
 function generateQRCode() {
   var inputText = document.getElementById("inputText").value;
   var qrcodeElement = document.getElementById("qrcode");
@@ -16,4 +14,7 @@ function generateQRCode() {
     colorLight: "#ffffff",
     correctLevel: QRCode.CorrectLevel.H,
   });
+
+  qrcodeElement.style.backgroundColor = "white";
+ 
 }

@@ -2,20 +2,24 @@
 <html>
   <head>
     <title>QR Code Generator</title>
+    <link rel="stylesheet" href="./style.css" />
     <script src="./script.js"></script>
     <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
   </head>
   <body>
-    <div class="title">QR Code Generator</div>
-    <div class="subtitle">Generat QR code for anything</div>
+    <section class="heading">
+      <div class="title">QR Code Generator</div>
+      <div class="subtitle">Generate QR code for anything</div>
+    </section>
 
-    <div>
-      <label for="inputText">Text:</label>
-      <input type="text" id="inputText" />
+    <section class="inputSection">
+      <div>
+        <input type="text" id="inputText" placeholder="Type something..." />
+      </div>
       <button id="button" type="submit" onclick="generateQRCode()">
         Generate QR Code
       </button>
-    </div>
+    </section>
 
     <div id="qrcode"></div>
   </body>
