@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify-Your favourite music is here</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-slate-900 text-white">
+    <nav
+      class="flex justify-around flex-wrap items-center h-14 w-full fixed bg-black p-2"
+    >
+      <div>
+        <a class="flex items-center gap-1" href="#">
+          <img class="w-10" src="/Assets/logo.png" alt="" />
+          <p class="text-3xl text-purple-400">Spotify</p>
+        </a>
+      </div>
+      <ul class="md:flex hidden flex-wrap gap-4">
+        <a class="cursor-pointer px-[5px]" href="#">
+          <li>Home</li>
+        </a>
+        <a class="cursor-pointer px-[5px]" href="#">
+          <li>About</li>
+        </a>
+        <a class="cursor-pointer px-[5px]" href="#">
+          <li>Contact</li>
+        </a>
+      </ul>
+      <button class="bg-purple-700 text-white p-2 rounded-md">
+        LogIn/SignUp
+      </button>
+    </nav>
+
+    // main contianer which will conatins songs and banner
+    <div class="mt-20 flex justify-center text-center">
+     <div class="w-[85%] h-auto bg-gray-600 rounded-md px-9 flex flex-col items-center">
+        <h1 class="text-gray-300 m-2">Best of NCS - No Copyright Songs</h1>
+        <div class="h-[4px] bg-purple-500 w-[100px] rounded-lg mb-10"></div>
+        <div class="flex justify-around">
+          <div class=""> Song list</div>
+          <div class="w-[60%]"> <img class="rounded-2xl md:block hidden  " src="/Assets/bg.jpg" alt=""></div>
+        </div>
+     </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
